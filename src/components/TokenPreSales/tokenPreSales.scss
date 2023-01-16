@@ -1,0 +1,61 @@
+@import '../../assets/_vars.scss';
+
+.containerTokens{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+    height: 100%;
+    padding:0.5rem;
+
+    .title{
+        display: flex;
+    justify-content: center;
+    justify-content: space-between;
+        color: $PrimaryTextColor
+    }
+    .row{
+        display: flex;
+        justify-content: space-between;
+    }
+    .stage{
+        color: $PrimaryTextColor;
+        // span{color: $SecondaryTextColor}
+    }
+    .noAmount{
+        display: flex;
+        width: 70%;
+        justify-content: space-between;
+        color: $SecondaryTextColor
+    }
+
+}
+
+.light{
+
+    .title{
+        color: $PrimaryTextColor
+    }
+
+    .stage{
+        color: $PrimaryTextColor;
+    }
+    .noAmount{
+        color: $SecondaryTextColor
+    }
+
+}
+
+.dark{
+
+        .title{
+            color: $PrimaryTextDark
+        }
+
+        .stage{
+            color: $PrimaryTextDark;
+        }
+        .noAmount{
+            color: $White
+        }
+
+}

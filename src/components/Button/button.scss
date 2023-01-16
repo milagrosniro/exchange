@@ -1,0 +1,28 @@
+@import "../../assets/_vars.scss";
+
+button{
+    background-color: $PrimaryTextColor;
+    color: $White;
+    height: 15%;
+    width: 60%;
+    border-radius: 5px;
+    border: 1px solid $PrimaryTextColor;
+    align-self: center;
+    align-items: center;
+    justify-content: center;
+    box-shadow: $boxShadow;
+
+    .wrapBtn{
+        display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+
+    img{
+        width: 70%;
+    }
+}
+
+button:hover{
+    cursor: pointer;
+}

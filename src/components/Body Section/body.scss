@@ -1,0 +1,14 @@
+.mainContent{
+    width: 100%;
+    height: 75%;
+    // padding: 2rem;
+    overflow: auto;
+    display: flex;
+
+
+    .bottom{
+        margin-top: 2rem ;
+        gap: 2 rem;
+        align-items: flex-start;
+    }
+}

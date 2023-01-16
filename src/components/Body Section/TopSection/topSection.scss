@@ -1,0 +1,58 @@
+ @import "../../../assets/_vars.scss";
+
+ .topSection-light{
+    width: 100%;
+    font-size: $fontSmallSize;
+    // padding: 0.5rem;
+    height: 5%;
+    .headerSection{
+        padding: 0 5.5rem 0 0.5rem;
+        justify-content: space-between;
+        color: $SecondaryTextColor;
+        // font-size: $fontsubMediumSize;
+        width:100%;
+        box-shadow: $boxShadow;
+        // padding: 0.8rem;
+    }
+
+    .logo{
+        width:30%
+    }
+
+    .info {
+        color:$PrimaryTextColor;
+         font-weight: 300;
+        // font-size: $fontsubMediumSize;
+
+        .icon{
+            color:$SecondaryTextColor
+        }
+    }
+ }
+
+ .topSection-dark{
+    width: 100%;
+    // padding: 0.5rem;
+     height: 5%;
+    .headerSection{
+        justify-content: space-between;
+        color: $White;
+        font-size: $fontsubMediumSize;
+        width:100%;
+        box-shadow: $boxShadow;
+        // padding: 0.8rem;
+    }
+
+    .logo{
+        width:30%
+    }
+
+    .info {
+        color:$PrimaryTextDark;
+        font-weight: 300;
+
+        .icon{
+            color:$White
+        }
+    }
+ }

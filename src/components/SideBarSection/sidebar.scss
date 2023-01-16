@@ -1,0 +1,87 @@
+@import "../../assets/vars";
+
+
+  .sideBar-light{
+    // background-color: $BackgroundColor;
+    max-width: 18%;
+    height: 100%;
+    gap:3rem;
+    overflow: auto;
+
+    .menuDiv{
+      .divTitle{
+        font-size: $fontSmallSize;
+        color:$SecondaryTextColor;
+        padding: 0.5rem;
+      }
+
+      .menuLists{
+        margin-left: 0.5rem;
+        padding: 0.3rem;
+
+        .listItem{
+          padding: 0.5rem;
+          width: 100%;
+          position: relative;
+
+        }
+      }
+
+      .menuLink{
+        color: $SecondaryTextColor;
+        font-weight: 300;
+        .icon{
+          margin-right: .5rem;
+        }
+      }
+
+    }
+    .menuLists :hover {
+      background-color: $PrimaryTextColor;
+      transition: 0;
+      border-radius: 5px;
+
+    }
+  }
+  .sideBar-dark{
+    // background-color: $BackgroundColor;
+    max-width: 18%;
+    height: 100%;
+    gap:3rem;
+    overflow: auto;
+
+    .menuDiv{
+      .divTitle{
+        font-size: $fontSmallSize;
+        color:$SecondaryTextColor;
+        padding: 0.5rem;
+      }
+
+      .menuLists{
+        margin-left: 0.5rem;
+        padding: 0.3rem;
+
+        .listItem{
+          padding: 0.5rem;
+          width: 100%;
+          position: relative;
+
+        }
+      }
+
+      .menuLink{
+        color: $White;
+        font-weight: 300;
+        .icon{
+          margin-right: .5rem;
+        }
+      }
+
+    }
+    .menuLists :hover {
+      background-color: $PrimaryTextDark;
+      transition: 0;
+      border-radius: 5px;
+
+    }
+  }

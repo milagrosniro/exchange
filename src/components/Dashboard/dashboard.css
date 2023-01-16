@@ -1,0 +1,7 @@
+.containerSubCard {
+  display: flex;
+  justify-content: space-between; }
+  .containerSubCard .containerBtn {
+    align-self: flex-end;
+    display: flex;
+    justify-content: space-between; }

@@ -1,0 +1,44 @@
+/*30px*/
+/*1.875rem*/
+/*24px*/
+/*20px*/
+/*16px*/
+.containerTokens {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+  height: 100%;
+  padding: 0.5rem; }
+  .containerTokens .title {
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    color: #FF1282; }
+  .containerTokens .row {
+    display: flex;
+    justify-content: space-between; }
+  .containerTokens .stage {
+    color: #FF1282; }
+  .containerTokens .noAmount {
+    display: flex;
+    width: 70%;
+    justify-content: space-between;
+    color: #6D6D6D; }
+
+.light .title {
+  color: #FF1282; }
+
+.light .stage {
+  color: #FF1282; }
+
+.light .noAmount {
+  color: #6D6D6D; }
+
+.dark .title {
+  color: #00FFF7; }
+
+.dark .stage {
+  color: #00FFF7; }
+
+.dark .noAmount {
+  color: #FFFFFF; }

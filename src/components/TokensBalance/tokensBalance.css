@@ -1,0 +1,61 @@
+/*30px*/
+/*1.875rem*/
+/*24px*/
+/*20px*/
+/*16px*/
+.containerTokens {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  font-size: 16px; }
+  .containerTokens .firstRow {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 20%; }
+  .containerTokens .txtInfo {
+    font-size: 24px; }
+    .containerTokens .txtInfo span {
+      color: #6D6D6D;
+      font-size: 16px; }
+  .containerTokens .usdInfo {
+    font-size: 30px; }
+    .containerTokens .usdInfo span {
+      color: #6D6D6D;
+      font-size: 16px; }
+  .containerTokens .title {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    color: #FF1282; }
+    .containerTokens .title .hideIcon {
+      color: #6D6D6D;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 0.2rem; }
+  .containerTokens .subtitle {
+    display: flex;
+    width: 90%;
+    justify-content: space-between; }
+  .containerTokens .secondRow {
+    display: flex;
+    flex-direction: column;
+    height: 80%; }
+    .containerTokens .secondRow .percentajeValues {
+      display: flex;
+      gap: 2rem; }
+      .containerTokens .secondRow .percentajeValues span {
+        font-size: 16px; }
+    .containerTokens .secondRow .wrapGraph {
+      display: flex;
+      justify-content: space-between; }
+    .containerTokens .secondRow .rowValues {
+      display: flex;
+      gap: 2rem; }
+      .containerTokens .secondRow .rowValues span {
+        color: #6D6D6D;
+        font-size: 16px; }
