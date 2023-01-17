@@ -7,19 +7,22 @@ interface IBtnProps{
   color: string,
   onClick?: ()=>void,
   img?: string,
-  title: string
+  title: string,
+  width: string,
+  height: string,
+  text: string
 }
 
-const Button = ({color,onClick,img,title}:IBtnProps) => {
+const Button = ({color,onClick,img,title, width, height, text}:IBtnProps) => {
   const {theme, handleTheme} = useContext(ThemeContext)
   //handleTheme
   console.log(theme, 'THEME')
   return (
-    <button onClick={onClick ? onClick : ()=>{}} style={{color}}>
+    <button onClick={onClick ? onClick : ()=>{}} style={{backgroundColor: color, color: text, width, height, border: `1px solid ${color}`}} className={theme}>
         <div className='wrapBtn'>
-        {img ?? <span><img src={qr} alt='logoQR'/></span>  }
+        {img !== undefined && <span><img src={qr} alt='logoQR'/></span>  }
 
-        {title}
+       <p>{title}</p>
         </div>
         </button>
   )

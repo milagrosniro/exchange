@@ -1,22 +1,35 @@
-.containerSubCard{
+@import '../../assets/vars.scss';
+
+.containerSubCard_twoFAutentication{
     display: flex;
     justify-content: space-between;
+    width: 100%;
     padding: 0.5rem;
+    color: $BlackText;
 
-    .wrapContainerSubCard{
+    .containerRightSubCard{
         height: 100%;
-     width: 100%;
+    width: 100%;
+
+    div{
+        color: $LightGrey
+    }
+
+     p{
+        color: $PrimaryTextColor;
+        text-decoration: underline;
+     }
+    }
     .containerBtns{
         display: flex;
-    justify-content: space-between;
-    width: 100%;
+    justify-content: flex-end;
+    width: 50%;
 
     .wrapBtns{
         display: flex;
-        width: 40%;
+        width: 60%;
         height: 100%;
         justify-content: space-evenly;
-    }
     }
     }
 

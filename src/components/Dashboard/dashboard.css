@@ -1,6 +1,19 @@
 .containerSubCard {
   display: flex;
-  justify-content: space-between; }
+  justify-content: space-between;
+  padding: 0.5rem; }
+  .containerSubCard .wrapContainerSubCard {
+    height: 100%;
+    width: 100%; }
+    .containerSubCard .wrapContainerSubCard .containerBtns {
+      display: flex;
+      justify-content: space-between;
+      width: 100%; }
+      .containerSubCard .wrapContainerSubCard .containerBtns .wrapBtns {
+        display: flex;
+        width: 40%;
+        height: 100%;
+        justify-content: space-evenly; }
   .containerSubCard .containerBtn {
     align-self: flex-end;
     display: flex;

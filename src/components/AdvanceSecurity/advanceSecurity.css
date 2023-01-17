@@ -1,0 +1,25 @@
+.containerSubCard_AdvanceSecurity {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 0.5rem; }
+  .containerSubCard_AdvanceSecurity .containerRightSubCard {
+    height: 100%;
+    width: 100%; }
+    .containerSubCard_AdvanceSecurity .containerRightSubCard p {
+      width: 80%;
+      display: flex;
+      justify-content: space-between; }
+  .containerSubCard_AdvanceSecurity .containerBtns {
+    display: flex;
+    justify-content: flex-end;
+    width: 50%; }
+    .containerSubCard_AdvanceSecurity .containerBtns .wrapBtns {
+      display: flex;
+      width: 60%;
+      height: 100%;
+      justify-content: space-evenly; }
+  .containerSubCard_AdvanceSecurity .containerBtn {
+    align-self: flex-end;
+    display: flex;
+    justify-content: space-between; }

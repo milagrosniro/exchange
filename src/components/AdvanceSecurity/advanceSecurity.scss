@@ -1,22 +1,29 @@
-.containerSubCard{
+.containerSubCard_AdvanceSecurity{
     display: flex;
     justify-content: space-between;
-    padding: 0.5rem;
+    width: 100%;
+    padding:0.5rem;
 
-    .wrapContainerSubCard{
+    .containerRightSubCard{
         height: 100%;
-     width: 100%;
+    width: 100%;
+
+     p{
+        width:80%;
+        display: flex;
+        justify-content: space-between;
+     }
+    }
     .containerBtns{
         display: flex;
-    justify-content: space-between;
-    width: 100%;
+    justify-content: flex-end;
+    width: 50%;
 
     .wrapBtns{
         display: flex;
-        width: 40%;
+        width: 60%;
         height: 100%;
         justify-content: space-evenly;
-    }
     }
     }
 

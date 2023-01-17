@@ -1,0 +1,32 @@
+/*30px*/
+/*1.875rem*/
+/*24px*/
+/*20px*/
+/*16px*/
+.containerSubCard_twoFAutentication {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 0.5rem;
+  color: #000000; }
+  .containerSubCard_twoFAutentication .containerRightSubCard {
+    height: 100%;
+    width: 100%; }
+    .containerSubCard_twoFAutentication .containerRightSubCard div {
+      color: #949494; }
+    .containerSubCard_twoFAutentication .containerRightSubCard p {
+      color: #FF1282;
+      text-decoration: underline; }
+  .containerSubCard_twoFAutentication .containerBtns {
+    display: flex;
+    justify-content: flex-end;
+    width: 50%; }
+    .containerSubCard_twoFAutentication .containerBtns .wrapBtns {
+      display: flex;
+      width: 60%;
+      height: 100%;
+      justify-content: space-evenly; }
+  .containerSubCard_twoFAutentication .containerBtn {
+    align-self: flex-end;
+    display: flex;
+    justify-content: space-between; }

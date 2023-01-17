@@ -21,7 +21,8 @@
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  gap: 3rem; }
+  gap: 3rem;
+  height: 60%; }
 
 button {
   height: 18%;
@@ -43,8 +44,6 @@ img {
 .light {
   color: #6D6D6D; }
   .light button {
-    background-color: #FF1282;
-    border: 1px solid #FF1282;
     color: #FFFFFF; }
   .light .titleContainer p {
     color: #FF1282; }
@@ -52,8 +51,6 @@ img {
 .dark {
   color: #FFFFFF; }
   .dark button {
-    background-color: #00FFF7;
-    border: 1px solid #00FFF7;
     color: #000000; }
   .dark .titleContainer p {
     color: #00FFF7; }

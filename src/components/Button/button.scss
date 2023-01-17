@@ -1,12 +1,10 @@
 @import "../../assets/_vars.scss";
 
 button{
-    background-color: $PrimaryTextColor;
-    color: $White;
+
     height: 15%;
     width: 60%;
     border-radius: 5px;
-    border: 1px solid $PrimaryTextColor;
     align-self: center;
     align-items: center;
     justify-content: center;
@@ -21,8 +19,19 @@ button{
     img{
         width: 70%;
     }
+
 }
 
 button:hover{
     cursor: pointer;
+}
+
+button .light{
+    color: $White;
+
+    .wrapBtn{
+        p{
+            color:$White
+        }
+    }
 }
