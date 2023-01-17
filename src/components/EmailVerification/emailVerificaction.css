@@ -3,6 +3,28 @@
 /*24px*/
 /*20px*/
 /*16px*/
+.light .containerSubCard_emailVerification {
+  color: #000000; }
+  .light .containerSubCard_emailVerification .containerRightSubCard p {
+    color: #949494; }
+    .light .containerSubCard_emailVerification .containerRightSubCard p span {
+      color: #000000; }
+  .light .containerSubCard_emailVerification .containerBtns {
+    color: #FFFFFF; }
+  .light .containerSubCard_emailVerification .wrapBtns {
+    color: #FFFFFF; }
+
+.dark .containerSubCard_emailVerification {
+  color: #FFFFFF; }
+  .dark .containerSubCard_emailVerification .containerRightSubCard p {
+    color: #949494; }
+    .dark .containerSubCard_emailVerification .containerRightSubCard p span {
+      color: #FFFFFF; }
+  .dark .containerSubCard_emailVerification .containerBtns {
+    color: #FFFFFF; }
+  .dark .containerSubCard_emailVerification .wrapBtns {
+    color: #FFFFFF; }
+
 .containerSubCard_emailVerification {
   display: flex;
   justify-content: space-between;
@@ -10,7 +32,10 @@
   padding: 0.5rem; }
   .containerSubCard_emailVerification .containerRightSubCard {
     height: 100%;
-    width: 100%; }
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem; }
     .containerSubCard_emailVerification .containerRightSubCard p {
       width: 80%;
       display: flex;
@@ -28,14 +53,3 @@
     align-self: flex-end;
     display: flex;
     justify-content: space-between; }
-
-.light {
-  color: #000000; }
-  .light .containerRightSubCard p {
-    color: #949494; }
-    .light .containerRightSubCard p span {
-      color: #000000; }
-  .light .containerBtns {
-    color: #FFFFFF; }
-  .light .wrapBtns {
-    color: #FFFFFF; }

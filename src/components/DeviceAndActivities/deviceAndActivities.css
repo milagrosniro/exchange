@@ -1,3 +1,8 @@
+/*30px*/
+/*1.875rem*/
+/*24px*/
+/*20px*/
+/*16px*/
 .container_DeviceAndActivities .containerSubCard_DeviceAndActivities {
   display: flex;
   justify-content: space-between;
@@ -23,3 +28,37 @@
     align-self: flex-end;
     display: flex;
     justify-content: space-between; }
+
+.light .containerSubCard_DeviceAndActivities {
+  color: #000000; }
+  .light .containerSubCard_DeviceAndActivities .containerRightSubCard p {
+    color: #949494; }
+    .light .containerSubCard_DeviceAndActivities .containerRightSubCard p span {
+      color: #000000; }
+  .light .containerSubCard_DeviceAndActivities .containerBtns {
+    color: #FFFFFF; }
+  .light .containerSubCard_DeviceAndActivities .wrapBtns {
+    color: #FFFFFF; }
+
+.light .second .containerRightSubCard {
+  color: #000000; }
+  .light .second .containerRightSubCard p {
+    color: #000000; }
+    .light .second .containerRightSubCard p span {
+      color: #FF1282;
+      text-decoration: underline; }
+
+.dark .containerSubCard_DeviceAndActivities {
+  color: #FFFFFF; }
+  .dark .containerSubCard_DeviceAndActivities .containerRightSubCard p {
+    color: #949494; }
+    .dark .containerSubCard_DeviceAndActivities .containerRightSubCard p span {
+      color: #FFFFFF; }
+  .dark .containerSubCard_DeviceAndActivities .containerBtns {
+    color: #FFFFFF; }
+  .dark .containerSubCard_DeviceAndActivities .wrapBtns {
+    color: #FFFFFF; }
+
+.dark .second .containerRightSubCard p span {
+  color: #00FFF7;
+  text-decoration: underline; }

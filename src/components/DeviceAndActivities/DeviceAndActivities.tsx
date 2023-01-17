@@ -6,6 +6,8 @@ import './deviceAndActivities.scss'
 const DeviceAndActivities = () => {
   const {theme} = useContext(ThemeContext)
   return (
+    <div className={theme}>
+
     <div className='container_DeviceAndActivities'>
 
     <div className='containerSubCard_DeviceAndActivities'>
@@ -25,7 +27,7 @@ const DeviceAndActivities = () => {
       </div>
       </div>
     </div>
-    <div className='containerSubCard_DeviceAndActivities'>
+    <div className='containerSubCard_DeviceAndActivities second'>
 
     <div className='containerRightSubCard'>
 
@@ -42,6 +44,7 @@ const DeviceAndActivities = () => {
         <Button color={'#C4C4C4'} title={'More'} width={'60%'} height={'50%'} text={theme === 'light' ?`white` : '#3F3D4D'}/>
       </div>
       </div>
+    </div>
     </div>
     </div>
   )

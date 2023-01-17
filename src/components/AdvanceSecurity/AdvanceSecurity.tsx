@@ -6,12 +6,14 @@ import './advanceSecurity.scss'
 const AdvanceSecurity = () => {
   const {theme} = useContext(ThemeContext)
   return (
+    <div className={theme}>
+
     <div className='containerSubCard_AdvanceSecurity'>
 
     <div className='containerRightSubCard'>
 
-    <h2>Advanced Security</h2>
-    <h3>Login Password</h3>
+    <h3>Advanced Security</h3>
+    <h4>Login Password</h4>
 
     <p>Login Password is used to log in to your account </p>
 
@@ -22,6 +24,7 @@ const AdvanceSecurity = () => {
       <Button color={'#C4C4C4'} title={'Change'} width={'60%'} height={'50%'} text={theme === 'light' ?`#FFFFFF` : '#3F3D4D'}/>
       </div>
       </div>
+    </div>
     </div>
   )
 }

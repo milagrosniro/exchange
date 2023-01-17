@@ -7,7 +7,9 @@ const EmailVerification = () => {
   const {theme} = useContext(ThemeContext)
 
   return (
-    <div className={`containerSubCard_emailVerification ${theme}`}>
+    <div className={theme}>
+
+    <div className={`containerSubCard_emailVerification`}>
 
     <div className='containerRightSubCard'>
 
@@ -19,9 +21,10 @@ const EmailVerification = () => {
     </div>
     <div className='containerBtns'>
       <div className='wrapBtns'>
-        <Button color={'#C4C4C4'} title={'Change'} width={'60%'} height={'50%'} text={`white`}/>
+        <Button color={'#C4C4C4'} title={'Change'} width={'60%'} height={'50%'} text={theme === 'light' ?`white` : '#3F3D4D'}/>
       </div>
       </div>
+    </div>
     </div>
   )
 }

@@ -1,8 +1,11 @@
 @import '../../assets/_vars.scss';
 
 .container-card{
-    box-shadow:$boxShadow !important;
+    box-shadow:$boxShadow;
     border-radius: 5px;
     padding: 0.5rem;
     height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 }

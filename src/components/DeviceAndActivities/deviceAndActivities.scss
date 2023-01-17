@@ -1,3 +1,5 @@
+@import '../../assets/vars.scss';
+
 .container_DeviceAndActivities{
 
     .containerSubCard_DeviceAndActivities{
@@ -34,6 +36,70 @@
             display: flex;
             justify-content: space-between;
 
+        }
+    }
+}
+
+
+.light{
+    .containerSubCard_DeviceAndActivities{
+        color: $BlackText;
+        .containerRightSubCard{
+
+            p{
+                color: $LightGrey;
+                span{
+                    color: $BlackText
+                }
+            }
+        }
+        .containerBtns{
+            color: $White
+        }
+        .wrapBtns{
+            color: $White
+        }
+    }
+    .second{
+        .containerRightSubCard{
+            color: $BlackText;
+            p{
+                color: $BlackText;
+                span{
+                    color: $PrimaryTextColor;
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+}
+
+.dark{
+    .containerSubCard_DeviceAndActivities{
+        color: $White;
+        .containerRightSubCard{
+            p{
+                color: $LightGrey;
+                span{
+                    color: $White
+                }
+            }
+        }
+        .containerBtns{
+            color: $White
+        }
+        .wrapBtns{
+            color: $White
+        }
+    }
+    .second{
+        .containerRightSubCard{
+            p{
+                span{
+                    color: $PrimaryTextDark;
+                    text-decoration: underline;
+                }
+            }
         }
     }
 }

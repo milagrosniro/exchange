@@ -7,16 +7,17 @@
   display: flex;
   justify-content: space-between;
   width: 100%;
-  padding: 0.5rem;
-  color: #000000; }
+  padding: 0.5rem; }
+  .containerSubCard_twoFAutentication h4 {
+    padding-top: 2rem; }
+  .containerSubCard_twoFAutentication .text {
+    padding-top: 1rem; }
+  .containerSubCard_twoFAutentication .link {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem; }
   .containerSubCard_twoFAutentication .containerRightSubCard {
     height: 100%;
     width: 100%; }
-    .containerSubCard_twoFAutentication .containerRightSubCard div {
-      color: #949494; }
-    .containerSubCard_twoFAutentication .containerRightSubCard p {
-      color: #FF1282;
-      text-decoration: underline; }
   .containerSubCard_twoFAutentication .containerBtns {
     display: flex;
     justify-content: flex-end;
@@ -30,3 +31,19 @@
     align-self: flex-end;
     display: flex;
     justify-content: space-between; }
+
+.light .containerSubCard_twoFAutentication {
+  color: #000000; }
+  .light .containerSubCard_twoFAutentication .containerRightSubCard div {
+    color: #949494; }
+  .light .containerSubCard_twoFAutentication .containerRightSubCard p {
+    color: #FF1282;
+    text-decoration: underline; }
+
+.dark .containerSubCard_twoFAutentication {
+  color: #FFFFFF; }
+  .dark .containerSubCard_twoFAutentication .containerRightSubCard div {
+    color: #949494; }
+  .dark .containerSubCard_twoFAutentication .containerRightSubCard p {
+    color: #00FFF7;
+    text-decoration: underline; }

@@ -1,3 +1,8 @@
+/*30px*/
+/*1.875rem*/
+/*24px*/
+/*20px*/
+/*16px*/
 .containerSubCard_AdvanceSecurity {
   display: flex;
   justify-content: space-between;
@@ -23,3 +28,25 @@
     align-self: flex-end;
     display: flex;
     justify-content: space-between; }
+
+.light .containerSubCard_AdvanceSecurity {
+  color: #000000; }
+  .light .containerSubCard_AdvanceSecurity .containerRightSubCard p {
+    color: #949494; }
+    .light .containerSubCard_AdvanceSecurity .containerRightSubCard p span {
+      color: #000000; }
+  .light .containerSubCard_AdvanceSecurity .containerBtns {
+    color: #FFFFFF; }
+  .light .containerSubCard_AdvanceSecurity .wrapBtns {
+    color: #FFFFFF; }
+
+.dark .containerSubCard_AdvanceSecurity {
+  color: #FFFFFF; }
+  .dark .containerSubCard_AdvanceSecurity .containerRightSubCard p {
+    color: #949494; }
+    .dark .containerSubCard_AdvanceSecurity .containerRightSubCard p span {
+      color: #FFFFFF; }
+  .dark .containerSubCard_AdvanceSecurity .containerBtns {
+    color: #FFFFFF; }
+  .dark .containerSubCard_AdvanceSecurity .wrapBtns {
+    color: #FFFFFF; }
