@@ -5,7 +5,7 @@ import TokenPreSales from '../TokenPreSales/TokenPreSales';
 import Button from '../Button/Button'
 import { ThemeContext } from '../../context/ThemeContext'
 import Home from '../../pages/Home/Home'
-import Dashboard from '../Dashboard/Dashboard'
+import Dashboard from '../../pages/Dashboard/Dashboard'
 import qr from '../../images/QRWHITE1.png'
 import { useLocation } from 'react-router-dom';
 
