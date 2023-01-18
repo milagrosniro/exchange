@@ -1,0 +1,16 @@
+/*30px*/
+/*1.875rem*/
+/*24px*/
+/*20px*/
+/*16px*/
+.titleContainer {
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+  font-size: 30px; }
+
+.light .titleContainer p {
+  color: #FF1282; }
+
+.dark .titleContainer p {
+  color: #00FFF7; }

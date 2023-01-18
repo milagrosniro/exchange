@@ -1,0 +1,40 @@
+/*30px*/
+/*1.875rem*/
+/*24px*/
+/*20px*/
+/*16px*/
+.containerTokens {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 0.5em;
+  height: 100%;
+  padding: 0.5rem;
+  font-size: 18px; }
+  .containerTokens .containerInfoBalance {
+    display: flex;
+    justify-content: space-between; }
+    .containerTokens .containerInfoBalance .infoBalance {
+      display: flex;
+      gap: 1rem; }
+      .containerTokens .containerInfoBalance .infoBalance p {
+        font-size: 24px; }
+      .containerTokens .containerInfoBalance .infoBalance span {
+        font-size: 18px; }
+  .containerTokens .containerPayments {
+    display: flex;
+    justify-content: space-between; }
+    .containerTokens .containerPayments .payment p {
+      font-size: 14px; }
+
+.light .title, .light .stage, .light .titleBalance, .light .titlePayments {
+  color: #FF1282; }
+
+.light .noAmount {
+  color: #6D6D6D; }
+
+.dark .title, .dark .stage, .dark .titleBalance, .dark .titlePayments {
+  color: #00FFF7; }
+
+.dark .noAmount {
+  color: #FFFFFF; }

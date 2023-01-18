@@ -1,0 +1,35 @@
+@import "../../assets/_vars.scss";
+
+.containerPreSaleToken{
+    .titlePreSale{
+        font-size: $fontMediumSize;
+    }
+    .tokenPrice{
+        font-size: $fontSmallSize;
+        display: flex;
+        gap: 2rem;
+    }
+}
+
+.light{
+    color: $SecondaryTextColor;
+    .tokenPrice{
+        div{
+            span{
+                color: $PrimaryTextColor
+            }
+        }
+    }
+}
+
+.dark{
+    color:$White;
+
+    .tokenPrice{
+        div{
+            span{
+                color: $PrimaryTextDark
+            }
+        }
+    }
+}

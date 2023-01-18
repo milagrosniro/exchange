@@ -1,0 +1,65 @@
+@import '../../assets/_vars.scss';
+
+.containerTokens{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 0.5em;
+    height: 100%;
+    padding:0.5rem;
+    font-size: $fontsubMediumSize;
+
+    .containerInfoBalance{
+        display: flex;
+    justify-content: space-between;
+
+    .infoBalance{
+        display: flex;
+        gap: 1rem;
+        p{
+            font-size: 24px;
+        }
+        span{
+            font-size: $fontsubMediumSize
+        }
+    }
+    }
+
+    .containerPayments{
+        display: flex;
+        justify-content: space-between;
+
+        .payment{
+            p{
+                font-size: 14px;
+            }
+        }
+    }
+
+
+
+}
+
+.light{
+
+    .title, .stage, .titleBalance, .titlePayments{
+        color: $PrimaryTextColor
+    }
+
+    .noAmount{
+        color: $SecondaryTextColor
+    }
+
+}
+
+.dark{
+
+    .title, .stage, .titleBalance, .titlePayments{
+            color: $PrimaryTextDark
+        }
+
+        .noAmount{
+            color: $White
+        }
+
+}

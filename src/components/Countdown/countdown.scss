@@ -1,0 +1,28 @@
+@import '../../assets/vars.scss';
+
+.titleContainer{
+    display: flex;
+    justify-content: center;
+    gap:0.5rem;
+    font-size: $fontBiggestSize;
+}
+
+.light{
+
+    .titleContainer{
+
+    p{
+        color: $PrimaryTextColor
+    }
+}
+}
+
+.dark{
+
+    .titleContainer{
+
+    p{
+        color: $PrimaryTextDark
+    }
+}
+}

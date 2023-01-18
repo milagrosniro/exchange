@@ -1,0 +1,22 @@
+/*30px*/
+/*1.875rem*/
+/*24px*/
+/*20px*/
+/*16px*/
+.containerPreSaleToken .titlePreSale {
+  font-size: 20px; }
+
+.containerPreSaleToken .tokenPrice {
+  font-size: 16px;
+  display: flex;
+  gap: 2rem; }
+
+.light {
+  color: #6D6D6D; }
+  .light .tokenPrice div span {
+    color: #FF1282; }
+
+.dark {
+  color: #FFFFFF; }
+  .dark .tokenPrice div span {
+    color: #00FFF7; }

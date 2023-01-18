@@ -8,6 +8,9 @@ import Home from '../../pages/Home/Home'
 import Dashboard from '../../pages/Dashboard/Dashboard'
 import qr from '../../images/QRWHITE1.png'
 import { useLocation } from 'react-router-dom';
+import Countdown from '../Countdown/Coundown';
+import BalanceCard from '../BalanceCard/BalanceCard';
+import PreSaleToken from '../PreSaleToken/PreSaleToken';
 
 
 const ContainerCards = () => {
@@ -34,15 +37,13 @@ const ContainerCards = () => {
 
         <div className="rightContainerCards">
         <Card width={''} height={''}>
-            <div>
-                <div className='titleContainer'>
-                <p>Stage-1 </p><span> Countdown</span>
-                </div>
-            </div>
+            {/* <Countdown/> */}
+            <BalanceCard/>
         </Card>
         <Button color='#FF1282' title='BUY TICKTES' img={qr} onClick={handleTheme} width={'70%'} height={'15%'} text={'white'}/>
         <Card width={''} height={''}>
-            <TokenPreSales/>
+            {/* <TokenPreSales/> */}
+            <PreSaleToken/>
         </Card>
         </div>
     </div>
