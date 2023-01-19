@@ -1,14 +1,27 @@
-import React from 'react'
+import React, { useContext } from 'react'
+import { ThemeContext } from '../../context/ThemeContext'
 import './progressBar.scss'
 
 export interface IpropsPorogressBar{
     value: string,
-    max?: string
+    percentaje?: string
 }
 
-const ProgressBar = ({value, max}: IpropsPorogressBar) => {
+const ProgressBar = ({value, percentaje}: IpropsPorogressBar) => {
+  const {theme} = useContext(ThemeContext)
   return (
-    <progress className='containerProgress' value={value} max={max ? max : '100'}>{value}%</progress>
+    <div className={theme}>
+
+    <div className={`wrapProgress`}>
+
+    <div className='containerProgress' style={{width:`${percentaje}%`}}>
+      <div className='infoProgress'>
+        <div className='value'>{value}$</div>
+        <div className='percentaje'>{percentaje}%</div>
+        </div>
+      </div>
+    </div>
+    </div>
   )
 }
 

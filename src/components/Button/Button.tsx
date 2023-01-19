@@ -14,13 +14,13 @@ interface IBtnProps{
 }
 
 const Button = ({color,onClick,img,title, width, height, text}:IBtnProps) => {
-  const {theme, handleTheme} = useContext(ThemeContext)
+  const {theme} = useContext(ThemeContext)
   //handleTheme
   console.log(theme, 'THEME')
   return (
-    <button onClick={onClick ? onClick : ()=>{}} style={{backgroundColor: color, color: text, width, height, border: `1px solid ${color}`}} className={theme}>
+    <button onClick={onClick ? onClick : ()=>{}} style={{backgroundColor: color, color: text, width:'auto', height:'auto', border: `1px solid ${color}`, padding:`0.5rem 1rem`, display:'flex'}} className={theme}>
         <div className='wrapBtn'>
-        {img !== undefined && <span><img src={qr} alt='logoQR'/></span>  }
+        {img !== undefined && <span><img src={qr} alt='logoQR' style={theme === 'dark' ? {filter: 'invert(1)'}:{}}/></span>  }
 
        <p>{title}</p>
         </div>

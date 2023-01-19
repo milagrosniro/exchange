@@ -2,11 +2,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap');
 @import "./assets/_vars";
 
+@font-face {
+  font-family: sansation;
+  src: url('./assets/SansationLight.ttf');
+}
+
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: 'Open Sans', sans-serif;
+  // font-family: 'Open Sans', sans-serif;
+  font-family: sansation;
+  src: url('./assets/SansationLight.ttf');
   transition: .3s ease; }
 
 

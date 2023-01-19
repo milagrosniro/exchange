@@ -6,6 +6,39 @@
     gap:0.5rem;
     font-size: $fontBiggestSize;
 }
+.countDownDiv{
+    display: flex;
+    // background-color: $LightGrey;
+    justify-content: space-between;
+    align-items: center;
+
+    .valuesCountDown{
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+
+        .onlyValueCount{
+            background-color: $BgCount;
+            border:1px solid $BorderCount;
+            color: $White;
+            width: 40%;
+            padding: 5px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            letter-spacing: 0.035em;
+            color: $BlackText
+        }
+    }
+    .propertyCount{
+        display: flex;
+        align-items: center;
+        text-align: center;
+        letter-spacing: 0.035em;
+        justify-content: center;
+    }
+}
 
 .light{
 
@@ -15,9 +48,40 @@
         color: $PrimaryTextColor
     }
 }
+
+
 }
 
 .dark{
+    .countDownDiv{
+        display: flex;
+        // background-color: $LightGrey;
+        justify-content: space-between;
+        align-items: center;
+
+        .valuesCountDown{
+            display: flex;
+            justify-content: space-around;
+            width: 100%;
+
+            .onlyValueCount{
+                background-color: $BackgroundColorDark;
+                border:1px solid $BackgroundColorDark;
+                color: $White;
+                width: 40%;
+                padding: 5px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+                letter-spacing: 0.035em;
+                color: $LightGrey
+            }
+        }
+        .propertyCount{
+            color: $White
+        }
+    }
 
     .titleContainer{
 

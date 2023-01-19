@@ -15,12 +15,6 @@ footer{
     width: 40%;
     justify-content: space-between;
     align-items: center;
-
-    .logo{
-        img{
-            width:80%
-        }
-    }
 }
 
 .footer-less{
@@ -31,16 +25,19 @@ footer{
 
 .footer-light{
         background-color: $footerBg;
+        margin-left: 1rem;
 }
 
 .footer-dark{
         background-color: $BgFooterBlack;
+        margin-left: 1rem;
 }
 
 .footer-less-light{
     width: 100%;
     display: flex;
     justify-content: center;
+    margin-bottom: 1rem;
 }
 
 
@@ -48,5 +45,6 @@ footer{
     width: 100%;
     display: flex;
     justify-content: center;
-    color:$White
+    color:$White;
+    margin-bottom: 1rem;
 }

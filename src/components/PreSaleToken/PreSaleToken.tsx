@@ -1,5 +1,6 @@
 import { useContext, useState } from "react"
 import { ThemeContext } from "../../context/ThemeContext"
+import ProgressBar from "../ProgressBar/ProgressBar"
 import './preSaleToken.scss'
 
 const PreSaleToken = () => {
@@ -16,6 +17,7 @@ const PreSaleToken = () => {
                 <div>BTC= <span>38970 TXT</span></div>
             </div>
             <div className={'titlePreSale'}>PRE-SALE TOKEN PROGRESS</div>
+            <ProgressBar value="670.000" percentaje="67"/>
         </div>
     </div>
   )

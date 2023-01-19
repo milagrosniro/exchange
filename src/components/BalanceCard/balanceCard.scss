@@ -12,10 +12,14 @@
     .containerInfoBalance{
         display: flex;
     justify-content: space-between;
+    width: 100%;
 
     .infoBalance{
         display: flex;
-        gap: 1rem;
+        gap: 0.4rem;
+        color: $LightGrey;
+        align-items: center;
+        width: 40%;
         p{
             font-size: 24px;
         }
@@ -45,9 +49,20 @@
     .title, .stage, .titleBalance, .titlePayments{
         color: $PrimaryTextColor
     }
+    .infoBalance p{
+        color: $BlackText;
+    }
 
+    .payment div{
+        color: $BlackText
+    }
     .noAmount{
-        color: $SecondaryTextColor
+         color: $PrimaryTextColor;
+        opacity: 0.2;
+
+        .status{
+            color: $SecondaryTextColor
+        }
     }
 
 }
@@ -57,9 +72,24 @@
     .title, .stage, .titleBalance, .titlePayments{
             color: $PrimaryTextDark
         }
-
-        .noAmount{
+        .infoBalance p{
             color: $White
         }
 
+        .payment div{
+            color: $White
+        }
+
+        .infoBalance{
+            color: $White
+        }
+
+        .noAmount{
+            color: $PrimaryTextDark;
+           opacity: 0.2;
+
+           .status{
+               color: $SecondaryTextColor
+           }
+       }
 }

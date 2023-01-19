@@ -27,25 +27,39 @@ const ContainerCards = () => {
 
   return (
     <div className={`containerCards ${theme}`}>
+      {
+        path === '/dashboard' ?
+        <>
         <div className='leftContainerCards'>
-            {
-                path === '/dashboard' ? <Dashboard/> : <Home/>
-            }
-
-        {/* <Dashboard/> */}
+         <Dashboard/>
         </div>
 
         <div className="rightContainerCards">
         <Card width={''} height={''}>
-            {/* <Countdown/> */}
             <BalanceCard/>
         </Card>
-        <Button color='#FF1282' title='BUY TICKTES' img={qr} onClick={handleTheme} width={'70%'} height={'15%'} text={'white'}/>
+        <Button color={theme === 'light' ? '#FF1282' : '#00FFF7'} title='BUY TICKTES' img={qr} onClick={handleTheme} width={'70%'} height={'15%'} text={theme === 'light' ? '#FFFFFF' : '#000000'}/>
         <Card width={''} height={''}>
-            {/* <TokenPreSales/> */}
             <PreSaleToken/>
         </Card>
         </div>
+        </> :<>
+        <div className='leftContainerCards'>
+            <Home/>
+        </div>
+
+        <div className="rightContainerCards">
+        <Card width={''} height={''}>
+            <Countdown/>
+
+        </Card>
+        <Button color={theme === 'light' ? '#FF1282' : '#00FFF7'} title='BUY TICKTES' img={qr} onClick={handleTheme} width={'70%'} height={'15%'} text={theme === 'light' ? '#FFFFFF' : '#000000'}/>
+        <Card width={''} height={''}>
+            <TokenPreSales/>
+        </Card>
+        </div>
+        </>
+      }
     </div>
   )
 }

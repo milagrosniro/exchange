@@ -1,6 +1,7 @@
 import React from 'react'
 import './footer.scss'
-import logo from '../../images/logoRosa.png'
+import logoLight from '../../images/logoRosa.png'
+import logoDark from '../../images/logoDark.png'
 import { useContext } from 'react';
 import { ThemeContext } from '../../context/ThemeContext';
 
@@ -10,8 +11,8 @@ const Footer = () => {
   return (
     <footer className={`footer-${theme}`} >
         <div className={`footer-container ${theme}`}>
-        <div className="logo">
-        <img src={logo} alt='logo' width={100}/>
+        <div >
+        <img src={theme === 'light' ? logoLight : logoDark} width={100}/>
         </div>
         <div>
             <div>Company</div>

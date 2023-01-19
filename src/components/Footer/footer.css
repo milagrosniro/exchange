@@ -17,8 +17,6 @@ footer {
   width: 40%;
   justify-content: space-between;
   align-items: center; }
-  .footer-container .logo img {
-    width: 80%; }
 
 .footer-less {
   width: 100%;
@@ -26,18 +24,22 @@ footer {
   justify-content: center; }
 
 .footer-light {
-  background-color: rgba(255, 18, 130, 0.05); }
+  background-color: rgba(255, 18, 130, 0.05);
+  margin-left: 1rem; }
 
 .footer-dark {
-  background-color: #3F3D4D; }
+  background-color: #3F3D4D;
+  margin-left: 1rem; }
 
 .footer-less-light {
   width: 100%;
   display: flex;
-  justify-content: center; }
+  justify-content: center;
+  margin-bottom: 1rem; }
 
 .footer-less-dark {
   width: 100%;
   display: flex;
   justify-content: center;
-  color: #FFFFFF; }
+  color: #FFFFFF;
+  margin-bottom: 1rem; }

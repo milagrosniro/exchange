@@ -24,9 +24,10 @@
     width: 50%; }
     .containerSubCard_twoFAutentication .containerBtns .wrapBtns {
       display: flex;
-      width: 60%;
+      /* width: 60%; */
       height: 100%;
-      justify-content: space-evenly; }
+      justify-content: space-evenly;
+      gap: 0.5rem; }
   .containerSubCard_twoFAutentication .containerBtn {
     align-self: flex-end;
     display: flex;

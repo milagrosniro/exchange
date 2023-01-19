@@ -13,10 +13,14 @@
   font-size: 18px; }
   .containerTokens .containerInfoBalance {
     display: flex;
-    justify-content: space-between; }
+    justify-content: space-between;
+    width: 100%; }
     .containerTokens .containerInfoBalance .infoBalance {
       display: flex;
-      gap: 1rem; }
+      gap: 0.4rem;
+      color: #949494;
+      align-items: center;
+      width: 40%; }
       .containerTokens .containerInfoBalance .infoBalance p {
         font-size: 24px; }
       .containerTokens .containerInfoBalance .infoBalance span {
@@ -30,11 +34,32 @@
 .light .title, .light .stage, .light .titleBalance, .light .titlePayments {
   color: #FF1282; }
 
+.light .infoBalance p {
+  color: #000000; }
+
+.light .payment div {
+  color: #000000; }
+
 .light .noAmount {
-  color: #6D6D6D; }
+  color: #FF1282;
+  opacity: 0.2; }
+  .light .noAmount .status {
+    color: #6D6D6D; }
 
 .dark .title, .dark .stage, .dark .titleBalance, .dark .titlePayments {
   color: #00FFF7; }
 
-.dark .noAmount {
+.dark .infoBalance p {
   color: #FFFFFF; }
+
+.dark .payment div {
+  color: #FFFFFF; }
+
+.dark .infoBalance {
+  color: #FFFFFF; }
+
+.dark .noAmount {
+  color: #00FFF7;
+  opacity: 0.2; }
+  .dark .noAmount .status {
+    color: #6D6D6D; }

@@ -9,8 +9,58 @@
   gap: 0.5rem;
   font-size: 30px; }
 
+.countDownDiv {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+  .countDownDiv .valuesCountDown {
+    display: flex;
+    justify-content: space-around;
+    width: 100%; }
+    .countDownDiv .valuesCountDown .onlyValueCount {
+      background-color: #EDECEC;
+      border: 1px solid #D1D1D1;
+      color: #FFFFFF;
+      width: 40%;
+      padding: 5px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      letter-spacing: 0.035em;
+      color: #000000; }
+  .countDownDiv .propertyCount {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.035em;
+    justify-content: center; }
+
 .light .titleContainer p {
   color: #FF1282; }
+
+.dark .countDownDiv {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+  .dark .countDownDiv .valuesCountDown {
+    display: flex;
+    justify-content: space-around;
+    width: 100%; }
+    .dark .countDownDiv .valuesCountDown .onlyValueCount {
+      background-color: #1f1e24;
+      border: 1px solid #1f1e24;
+      color: #FFFFFF;
+      width: 40%;
+      padding: 5px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      letter-spacing: 0.035em;
+      color: #949494; }
+  .dark .countDownDiv .propertyCount {
+    color: #FFFFFF; }
 
 .dark .titleContainer p {
   color: #00FFF7; }

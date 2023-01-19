@@ -15,8 +15,8 @@ button {
     display: flex;
     justify-content: center;
     align-items: center; }
-  button img {
-    width: 70%; }
+    button .wrapBtn img {
+      width: 70%; }
 
 button:hover {
   cursor: pointer; }

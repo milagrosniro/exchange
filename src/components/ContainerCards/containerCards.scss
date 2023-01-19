@@ -36,15 +36,9 @@ button{
 
 
 
-img{
-    width: 10%;
-}
-
 .light{
     color: $SecondaryTextColor;
     button{
-        // background-color: $PrimaryTextColor;
-        // border: 1px solid $PrimaryTextColor;
         color: $White
     }
     .titleContainer{
@@ -58,8 +52,6 @@ img{
 .dark{
     color:$White;
     button{
-        // background-color: $PrimaryTextDark;
-        // border: 1px solid $PrimaryTextDark;
         color: $BlackText
     }
     .titleContainer{

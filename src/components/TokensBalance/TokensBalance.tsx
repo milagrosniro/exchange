@@ -1,8 +1,9 @@
 import React from 'react'
+import DonutChart from '../Charts/DonutChart';
 import {AiOutlineEye} from 'react-icons/ai'
 import {useState} from 'react';
+
 import './tokensBalance.scss'
-import DonutChart from '../Charts/DonutChart';
 
 const TokensBalance = () => {
     const [valuesTokens, setValuesTokens] = useState<any[]>([
@@ -58,12 +59,12 @@ const TokensBalance = () => {
                 </div>
                 <div className="containerGraph">
                     GRAFICO
-                    {/* <DonutChart colors={['red',
-                      'blue',
-                      'yellow',
-                      'orange',
-                      'black'
-                  ]} series={[55,15,10,15]} labels={['']} width={50} type={'donut'}/> */}
+                  {/* <DonutChart series={[55,15,10,15]} width={380} type={'donut'} colors={['#5D0074',
+                      '#D213B4',
+                      '#18A800',
+                      '#009E8B',
+                      '#FFE600'
+                  ]}/> */}
                   </div>
                 <div className="values">
                     {valuesTokens.map(value=>

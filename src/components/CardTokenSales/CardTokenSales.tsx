@@ -40,7 +40,7 @@ const CardTokenSales = () => {
         </div>
         <div className="footerInfo">
             <p>PRE-SALE TOKEN PROGRESS</p>
-            <ProgressBar value={'67'}/>
+            <ProgressBar value={'670.000'} percentaje={'67'}/>
 
         </div>
     </div>

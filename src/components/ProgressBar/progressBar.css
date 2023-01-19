@@ -9,18 +9,34 @@ progress::-moz-progress-bar {
 progress::-webkit-progress-value {
   background: #FF1282; }
 
-.containerProgress {
-  width: 100%;
-  height: 2rem; }
+.wrapProgress {
+  border: 1px solid #FF1282;
+  border-radius: 1em;
+  padding: 0; }
+  .wrapProgress .containerProgress {
+    width: 100%;
+    border-radius: 1em;
+    height: 29px;
+    background: linear-gradient(270deg, #FF1282 0%, #FFFFFF 100%);
+    box-shadow: inset 0px -2px 5px rgba(0, 0, 0, 0.5); }
+    .wrapProgress .containerProgress .infoProgress {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 0.2rem; }
+      .wrapProgress .containerProgress .infoProgress .value {
+        margin-left: 1rem;
+        color: #363442; }
+      .wrapProgress .containerProgress .infoProgress .percentaje {
+        margin-right: 1rem;
+        color: #000000; }
 
-.Parentdiv {
-  height: height;
-  width: '100%';
-  background-color: 'whitesmoke';
-  border-radius: 40;
-  margin: 50; }
+.light .wrapProgress {
+  border: 1px solid #FF1282; }
+  .light .wrapProgress .containerProgress {
+    background: linear-gradient(270deg, #FF1282 0%, #FFFFFF 100%); }
 
-.Childdiv {
-  height: '100%';
-  border-radius: 40;
-  text-align: 'right'; }
+.dark .wrapProgress {
+  border: 1px solid #00FFF7; }
+  .dark .wrapProgress .containerProgress {
+    background: linear-gradient(270deg, #00FFF7 0%, #FFFFFF 100%); }
