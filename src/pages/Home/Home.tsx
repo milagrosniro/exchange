@@ -14,9 +14,9 @@ const Home = () => {
         <Card width={''} height={'30%'}>
             <TokensBalance/>
         </Card>
-        <Card width={''} height={'35%'}>
+
         <TransactionHistory/>
-        </Card>
+
     </div>
   )
 }

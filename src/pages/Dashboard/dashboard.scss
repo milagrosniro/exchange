@@ -1,5 +1,8 @@
 
-
+.containerDashboard{
+    width: 100%;
+    display: flex;
+}
 .containerSubCard{
     display: flex;
     justify-content: space-between;
@@ -34,6 +37,8 @@
 @media (max-width:800px){
     .containerDashboard{
         height: 100%;
+        width: 100%;
+    display: flex;
         .leftContainerCards{
             height: 100%;
         }
@@ -45,6 +50,10 @@
     }
     .containerDashboard .rightContainerCards{
         display: none;
+
+    }
+    .containerDashboard .leftContainerCards{
+        width:100%
 
     }
 }

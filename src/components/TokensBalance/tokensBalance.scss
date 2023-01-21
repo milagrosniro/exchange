@@ -19,6 +19,12 @@
 
     .txtInfo{
         font-size: $fontBigSize;
+        width:50%;
+        input{
+            width:40%;
+            border:none;
+            color: $BlackText;
+        }
         span{
             color:$SecondaryTextColor;
             font-size: $fontSmallSize;
@@ -81,13 +87,30 @@
             gap: 2rem;
 
             span{
-                color: $SecondaryTextColor;
+                color: $LightGrey;
                 font-size: $fontSmallSize;
             }
         }
     }
 }
 
+.light{
+    .txtInfo{
+        input{
+            color: $BlackText;
+        }
+
+    }
+}
+
+.dark{
+    .txtInfo{
+        input{
+            color: $White;
+        }
+
+    }
+}
 @media(max-width:800px){
     .containerTokens .subtitle {
         width: 100%;

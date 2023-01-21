@@ -1,11 +1,12 @@
-import React from 'react'
+
 import DonutChart from '../Charts/DonutChart';
-import {AiOutlineEye} from 'react-icons/ai'
+import {AiOutlineEye, AiOutlineEyeInvisible} from 'react-icons/ai'
 import {useState} from 'react';
 
 import './tokensBalance.scss'
 
 const TokensBalance = () => {
+    const [show, setShow] = useState(true)
     const [valuesTokens, setValuesTokens] = useState<any[]>([
         {
             nickName:'BTC',
@@ -37,12 +38,19 @@ const TokensBalance = () => {
         <div className="firstRow">
             <div className="title">
                 <p>Tokens balance</p>
-                <div className='hideIcon'>Hide <AiOutlineEye/> </div>
+                <div className='hideIcon' onClick={()=> setShow(!show)}>
+                  {show ? <div>Hide <AiOutlineEye/></div> : <div>Show <AiOutlineEyeInvisible/></div>}
+                   </div>
             </div>
 
             <div className="subtitle">
-                <div className='txtInfo'>250.000 <span>TXT</span></div>
-                <div className='usdInfo'>250.000 <span>USD</span></div>
+                <div className='txtInfo'>
+
+                <input type={!show ? 'text' : 'password'} disabled={true}  value={'250.000'}/><span>TXT</span>
+                </div>
+                <div className='txtInfo'>
+                    <input type={!show ? 'text' : 'password'} disabled={true}  value={'250.000'}/><span>USD</span>
+                    </div>
 
             </div>
         </div>

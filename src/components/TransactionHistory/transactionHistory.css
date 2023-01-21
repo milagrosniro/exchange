@@ -32,6 +32,8 @@
     border-bottom: 1px solid #ddd; }
   .containerHistory .tdBody {
     color: #6D6D6D; }
+    .containerHistory .tdBody input {
+      border: none; }
   .containerHistory .tdBody:last-child {
     color: #FF1282; }
   .containerHistory .lastRow {

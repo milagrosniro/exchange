@@ -37,7 +37,10 @@
         border-bottom: 1px solid #ddd;
       }
       .tdBody{
-        color: $SecondaryTextColor
+        color: $SecondaryTextColor;
+        input{
+          border: none
+        }
       }
       .tdBody:last-child{
         color: $PrimaryTextColor
