@@ -46,10 +46,10 @@ const TokensBalance = () => {
             <div className="subtitle">
                 <div className='txtInfo'>
 
-                <input type={!show ? 'text' : 'password'} disabled={true}  value={'250.000'}/><span>TXT</span>
+                <input type={show ? 'text' : 'password'} disabled={true}  value={'250.000'}/><span>TXT</span>
                 </div>
                 <div className='txtInfo'>
-                    <input type={!show ? 'text' : 'password'} disabled={true}  value={'250.000'}/><span>USD</span>
+                    <input type={show ? 'text' : 'password'} disabled={true}  value={'250.000'}/><span>USD</span>
                     </div>
 
             </div>

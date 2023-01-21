@@ -13,11 +13,16 @@ const handleTheme= () =>{
     theme === 'light' ? setTheme('dark') : setTheme('light')
 }
 
+const [isOpenProfile, setIsOpenProfile] = useState(false);
+
   return (
     <ThemeContext.Provider value={{
         theme,
         setTheme,
-        handleTheme
+        handleTheme,
+        isOpenProfile,
+        setIsOpenProfile
+
     }}>
         {children}
     </ThemeContext.Provider>

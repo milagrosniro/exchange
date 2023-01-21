@@ -33,7 +33,8 @@
   .containerHistory .tdBody {
     color: #6D6D6D; }
     .containerHistory .tdBody input {
-      border: none; }
+      border: none;
+      background-color: transparent; }
   .containerHistory .tdBody:last-child {
     color: #FF1282; }
   .containerHistory .lastRow {
@@ -65,9 +66,14 @@
 
 .dark .tdBody {
   color: #FFFFFF; }
+  .dark .tdBody input {
+    color: #FFFFFF; }
 
 .dark .tdBody:last-child {
   color: #00FFF7; }
 
 .dark .lastRow {
   color: #00FFF7; }
+
+:hover .hideIcon, .lastRow p {
+  cursor: pointer; }

@@ -1,0 +1,51 @@
+@import '../../assets/vars.scss';
+
+div.modalProfileContainer {
+
+    position: fixed;
+    right: 5rem;
+    top: 1.899rem;
+    height: 20%;
+    width: 15%;
+    box-shadow: $boxShadow;
+}
+
+div.modalProfile {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    z-index: 99999;
+
+}
+
+div.profileInfo {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+div.profileData{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.light{
+    div.modalProfileContainer{
+        background-color:  $BackgroundColor
+    }
+    div.modalProfile{
+        background-color: $BackgroundColor;
+    }
+}
+
+.dark{
+    div.modalProfile{
+        background-color:  $BackgroundColorDark
+    }
+}

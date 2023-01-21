@@ -23,7 +23,8 @@
     .containerTokens .txtInfo input {
       width: 40%;
       border: none;
-      color: #000000; }
+      color: #000000;
+      background-color: transparent; }
     .containerTokens .txtInfo span {
       color: #6D6D6D;
       font-size: 1em; }

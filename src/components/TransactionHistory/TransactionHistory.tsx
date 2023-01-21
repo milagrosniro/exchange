@@ -36,7 +36,7 @@ const [expanded, setExpanded] = useState(false);
 
     </div>
 
-    <div className="tableContainer" style={!
+    <div className="tableContainer" style={
       expanded ?{overflow:'scroll'} : {overflow:'hidden'}}>
     <table>
   <tr>
@@ -58,7 +58,7 @@ if(i === headers.indexOf('Tokens')){
 
 </table>
     </div>
-    <div className="lastRow" onClick={()=> setExpanded(!expanded)}>Show All</div>
+    <div className="lastRow" onClick={()=> setExpanded(!expanded)}><p>Show All</p></div>
     </div>
     </Card>
   )
