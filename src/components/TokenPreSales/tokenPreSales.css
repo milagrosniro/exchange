@@ -9,6 +9,8 @@
   gap: 0.5em;
   height: 100%;
   padding: 0.5rem; }
+  .containerTokens .bodyTokenPreSale {
+    width: 100%; }
   .containerTokens .title {
     display: flex;
     justify-content: center;
@@ -16,9 +18,12 @@
     color: #FF1282; }
   .containerTokens .row {
     display: flex;
-    justify-content: space-between; }
+    justify-content: space-between;
+    width: 100%; }
   .containerTokens .stage {
     color: #FF1282; }
+  .containerTokens .stage, .containerTokens .status, .containerTokens .amount {
+    width: 30%; }
   .containerTokens .noAmount {
     display: flex;
     width: 70%;
@@ -42,3 +47,7 @@
 
 .dark .noAmount {
   color: #FFFFFF; }
+
+@media (max-width: 800px) {
+  .containerCardTokenPreSale {
+    display: none; } }

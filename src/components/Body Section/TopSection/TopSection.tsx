@@ -7,12 +7,12 @@ import { useContext } from 'react'
 import { ThemeContext } from '../../../context/ThemeContext'
 
 const TopSection = () => {
-  const {theme} = useContext(ThemeContext)
+  const {theme, handleTheme} = useContext(ThemeContext)
 
   return (
     <div className={`topSection-${theme}`}>
       <div className="headerSection flex">
-        <div className="logo" >
+        <div className="logo" onClick={handleTheme} >
         <img src={theme === 'light' ? logoLight : logoDark} alt='logo' width={60}/>
         </div>
         <div className="info">

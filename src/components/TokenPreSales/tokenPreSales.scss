@@ -7,6 +7,10 @@
     height: 100%;
     padding:0.5rem;
 
+    .bodyTokenPreSale{
+        width: 100%;
+    }
+
     .title{
         display: flex;
     justify-content: center;
@@ -16,10 +20,13 @@
     .row{
         display: flex;
         justify-content: space-between;
+        width: 100%;
     }
     .stage{
         color: $PrimaryTextColor;
-        // span{color: $SecondaryTextColor}
+    }
+    .stage, .status, .amount{
+        width: 30%;
     }
     .noAmount{
         display: flex;
@@ -58,4 +65,10 @@
             color: $White
         }
 
+}
+
+@media (max-width:800px){
+    .containerCardTokenPreSale{
+        display: none;
+    }
 }

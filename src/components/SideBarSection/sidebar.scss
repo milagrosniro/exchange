@@ -1,7 +1,6 @@
 @import "../../assets/vars";
 
   .sideBar-light{
-    // background-color: $BackgroundColor;
     max-width: 18%;
     height: 100%;
     gap:3rem;
@@ -41,9 +40,11 @@
       border-radius: 5px;
 
     }
+
+
+
   }
   .sideBar-dark{
-    // background-color: $BackgroundColor;
     max-width: 18%;
     height: 100%;
     gap:3rem;
@@ -81,6 +82,13 @@
       background-color: $PrimaryTextDark;
       transition: 0;
       border-radius: 5px;
+      color: $BlackText
 
     }
+
   }
+  @media (max-width:800px){
+    .sideBar-dark, .sideBar-light{
+      display: none;
+    }
+}

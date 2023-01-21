@@ -18,12 +18,15 @@ progress::-webkit-progress-value {
     border-radius: 1em;
     height: 29px;
     background: linear-gradient(270deg, #FF1282 0%, #FFFFFF 100%);
-    box-shadow: inset 0px -2px 5px rgba(0, 0, 0, 0.5); }
+    box-shadow: inset 0px -2px 5px rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center; }
     .wrapProgress .containerProgress .infoProgress {
       display: flex;
       justify-content: space-between;
       align-items: center;
-      padding: 0.2rem; }
+      padding: 0.2rem;
+      width: 100%; }
       .wrapProgress .containerProgress .infoProgress .value {
         margin-left: 1rem;
         color: #363442; }

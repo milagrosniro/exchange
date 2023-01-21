@@ -10,7 +10,7 @@
   gap: 0.5em;
   height: 100%;
   padding: 0.5rem;
-  font-size: 18px; }
+  font-size: 1.125em; }
   .containerTokens .containerInfoBalance {
     display: flex;
     justify-content: space-between;
@@ -24,7 +24,7 @@
       .containerTokens .containerInfoBalance .infoBalance p {
         font-size: 24px; }
       .containerTokens .containerInfoBalance .infoBalance span {
-        font-size: 18px; }
+        font-size: 1.125em; }
   .containerTokens .containerPayments {
     display: flex;
     justify-content: space-between; }

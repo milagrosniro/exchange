@@ -36,3 +36,15 @@ button .light{
         }
     }
 }
+
+@media (max-width:800px){
+    .rightContainerCards button{
+        display: none !important;
+    }
+    // button{
+    //   display: none !important;
+    // }
+    // .wrapBtn{
+    //     display: none;
+    // }
+}

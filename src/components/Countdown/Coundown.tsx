@@ -11,22 +11,16 @@ const Countdown = () => {
     seconds: '41'
   })
     const {theme} = useContext(ThemeContext)
-    const getCounts = (object: any) =>{
-
-      for (const property in object) {
-        console.log(`${property}: ${object[property]}`);
-      }
-      }
 
   return (
-    <div className={theme}>
+    <div className={`${theme} wrapCountdown`}>
     <div className='titleContainer'>
     <p>Stage-1 </p><span> Countdown</span>
     </div>
     <div className="countDownDiv">
       {
         Object.values(counts).map((e,i)=>
-        <div >
+        <div className='wrapInfoCount' >
 
         <div className='valuesCountDown'>
           {e.split('').map(info=><div className='onlyValueCount'>{info}</div>)}

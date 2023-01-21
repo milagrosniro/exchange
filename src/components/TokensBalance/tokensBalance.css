@@ -8,7 +8,8 @@
   display: flex;
   flex-direction: column;
   width: 100%;
-  font-size: 16px; }
+  font-size: 1em;
+  justify-content: space-between; }
   .containerTokens .firstRow {
     display: flex;
     flex-direction: column;
@@ -17,15 +18,15 @@
     width: 100%;
     height: 20%; }
   .containerTokens .txtInfo {
-    font-size: 24px; }
+    font-size: 1.5em; }
     .containerTokens .txtInfo span {
       color: #6D6D6D;
-      font-size: 16px; }
+      font-size: 1em; }
   .containerTokens .usdInfo {
-    font-size: 30px; }
+    font-size: 1.875em; }
     .containerTokens .usdInfo span {
       color: #6D6D6D;
-      font-size: 16px; }
+      font-size: 1em; }
   .containerTokens .title {
     display: flex;
     width: 100%;
@@ -40,7 +41,8 @@
   .containerTokens .subtitle {
     display: flex;
     width: 90%;
-    justify-content: space-between; }
+    justify-content: space-between;
+    align-items: center; }
   .containerTokens .secondRow {
     display: flex;
     flex-direction: column;
@@ -49,7 +51,7 @@
       display: flex;
       gap: 2rem; }
       .containerTokens .secondRow .percentajeValues span {
-        font-size: 16px; }
+        font-size: 1em; }
     .containerTokens .secondRow .wrapGraph {
       display: flex;
       justify-content: space-between; }
@@ -58,4 +60,12 @@
       gap: 2rem; }
       .containerTokens .secondRow .rowValues span {
         color: #6D6D6D;
-        font-size: 16px; }
+        font-size: 1em; }
+
+@media (max-width: 800px) {
+  .containerTokens .subtitle {
+    width: 100%; }
+  .light .containerTokens .subtitle {
+    background-color: #FF128226; }
+  .dark .containerTokens .subtitle {
+    background-color: #00FFF726; } }

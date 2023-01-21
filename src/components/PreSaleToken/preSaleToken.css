@@ -4,19 +4,21 @@
 /*20px*/
 /*16px*/
 .containerPreSaleToken .titlePreSale {
-  font-size: 20px; }
+  font-size: 1.25em; }
 
 .containerPreSaleToken .tokenPrice {
-  font-size: 16px;
+  font-size: 1em;
   display: flex;
   gap: 2rem; }
 
 .light {
+  height: 100%;
   color: #6D6D6D; }
   .light .tokenPrice div span {
     color: #FF1282; }
 
 .dark {
+  height: 100%;
   color: #FFFFFF; }
   .dark .tokenPrice div span {
     color: #00FFF7; }

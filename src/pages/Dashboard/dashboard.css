@@ -18,3 +18,15 @@
     align-self: flex-end;
     display: flex;
     justify-content: space-between; }
+
+@media (max-width: 800px) {
+  .containerDashboard {
+    height: 100%; }
+    .containerDashboard .leftContainerCards {
+      height: 100%; }
+    .containerDashboard .light {
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+  .containerDashboard .rightContainerCards {
+    display: none; } }

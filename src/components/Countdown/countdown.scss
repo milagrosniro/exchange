@@ -1,5 +1,11 @@
 @import '../../assets/vars.scss';
 
+.wrapCountdown{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 .titleContainer{
     display: flex;
     justify-content: center;
@@ -8,14 +14,20 @@
 }
 .countDownDiv{
     display: flex;
-    // background-color: $LightGrey;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
+    width: 100%;
+    height: 100%;
+
+    .wrapInfoCount{
+        height: 80%;
+    }
 
     .valuesCountDown{
         display: flex;
         justify-content: space-around;
         width: 100%;
+        height: 80%;
 
         .onlyValueCount{
             background-color: $BgCount;
@@ -55,7 +67,6 @@
 .dark{
     .countDownDiv{
         display: flex;
-        // background-color: $LightGrey;
         justify-content: space-between;
         align-items: center;
 
@@ -89,4 +100,33 @@
         color: $PrimaryTextDark
     }
 }
+}
+
+@media (max-width: 800px){
+    .titleContainer{
+        width:100%;
+        justify-content: flex-start;
+    }
+
+    .dark{
+        .countDownDiv{
+            .valuesCountDown{
+                .onlyValueCount{
+                    background-color: $White;
+                    border:1px solid $White;
+                    color: $BlackText
+                }
+            }
+            .propertyCount{
+                color: $White
+            }
+        }
+
+        .titleContainer{
+
+        p{
+            color: $PrimaryTextDark
+        }
+    }
+    }
 }

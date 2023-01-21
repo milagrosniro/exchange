@@ -9,7 +9,7 @@
   gap: 3rem;
   overflow: auto; }
   .sideBar-light .menuDiv .divTitle {
-    font-size: 16px;
+    font-size: 1em;
     color: #6D6D6D;
     padding: 0.5rem; }
   .sideBar-light .menuDiv .menuLists {
@@ -35,7 +35,7 @@
   gap: 3rem;
   overflow: auto; }
   .sideBar-dark .menuDiv .divTitle {
-    font-size: 16px;
+    font-size: 1em;
     color: #6D6D6D;
     padding: 0.5rem; }
   .sideBar-dark .menuDiv .menuLists {
@@ -53,4 +53,9 @@
   .sideBar-dark .menuLists :hover {
     background-color: #00FFF7;
     transition: 0;
-    border-radius: 5px; }
+    border-radius: 5px;
+    color: #000000; }
+
+@media (max-width: 800px) {
+  .sideBar-dark, .sideBar-light {
+    display: none; } }

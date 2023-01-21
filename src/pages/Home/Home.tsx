@@ -8,13 +8,13 @@ import './home.scss'
 const Home = () => {
   return (
     <div className='containerHome'>
-        <Card width={''} height={'25%'}>
+        <Card width={''} height={'30%'}>
            <CardTokenSales/>
 </Card>
-        <Card width={''} height={'35%'}>
+        <Card width={''} height={'30%'}>
             <TokensBalance/>
         </Card>
-        <Card width={''} height={'30%'}>
+        <Card width={''} height={'35%'}>
         <TransactionHistory/>
         </Card>
     </div>

@@ -43,3 +43,29 @@ footer {
   justify-content: center;
   color: #FFFFFF;
   margin-bottom: 1rem; }
+
+@media (max-width: 800px) {
+  footer {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 9px; }
+    footer .footer-container {
+      display: none; }
+  .footer-light {
+    background-color: transparent; }
+  .footer-light, .footer-dark {
+    margin: 0;
+    height: 3%;
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+  .footer-less-light {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 2rem; } }

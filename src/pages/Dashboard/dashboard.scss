@@ -30,3 +30,21 @@
 
     }
 }
+
+@media (max-width:800px){
+    .containerDashboard{
+        height: 100%;
+        .leftContainerCards{
+            height: 100%;
+        }
+        .light{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+    .containerDashboard .rightContainerCards{
+        display: none;
+
+    }
+}

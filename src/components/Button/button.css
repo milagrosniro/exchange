@@ -25,3 +25,7 @@ button .light {
   color: #FFFFFF; }
   button .light .wrapBtn p {
     color: #FFFFFF; }
+
+@media (max-width: 800px) {
+  .rightContainerCards button {
+    display: none !important; } }

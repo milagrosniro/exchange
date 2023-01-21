@@ -3,7 +3,7 @@
 /*24px*/
 /*20px*/
 /*16px*/
-.container-card {
+.container-card-light {
   box-shadow: 0px 4px 4px 0px #00000040;
   border-radius: 5px;
   padding: 0.5rem;
@@ -12,3 +12,21 @@
   flex-direction: column;
   justify-content: space-around;
   padding: 1rem; }
+
+.container-card-dark {
+  box-shadow: 0px 4px 4px 0px #00000040;
+  border-radius: 5px;
+  padding: 0.5rem;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 1rem;
+  background-color: #3F3D4D; }
+
+@media (max-width: 800px) {
+  .container-card-dark, .container-card-light {
+    box-shadow: none;
+    height: 100% !important; }
+  .container-card-dark {
+    background-color: #363442; } }

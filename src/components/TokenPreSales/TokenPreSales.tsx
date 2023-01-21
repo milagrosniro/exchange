@@ -2,6 +2,7 @@ import React from 'react'
 import { useState, useContext } from 'react';
 import './tokenPreSales.scss'
 import { ThemeContext } from '../../context/ThemeContext';
+import Card from '../Card/Card';
 
 const TokenPreSales = () => {
     const {theme} = useContext(ThemeContext)
@@ -33,15 +34,21 @@ const TokenPreSales = () => {
 
     ])
   return (
+    <div className='containerCardTokenPreSale'>
+
+<Card width={''} height={''}>
+
     <div className={`containerTokens ${theme}`}>
         <div className='title'>Token Presale Status</div>
-        <div className="body">
+        <div className="bodyTokenPreSale">
             {infoTokenPreSales && infoTokenPreSales.map(info=><div className={info.amount !== '' ? 'row' : 'noAmount'}>
                 <div className={info.amount !== '' ? 'stage' : ''}>{`Stage-${info.stage}:`} <span>{info.type}</span></div>
                 <div className="status">{info.status}</div>
                 <div className="amount">{info.amount}</div>
             </div>)}
         </div>
+    </div>
+</Card>
     </div>
   )
 }

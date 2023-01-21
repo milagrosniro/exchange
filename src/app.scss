@@ -14,7 +14,9 @@
   // font-family: 'Open Sans', sans-serif;
   font-family: sansation;
   src: url('./assets/SansationLight.ttf');
-  transition: .3s ease; }
+  transition: .3s ease;
+  font-size: 0.98em
+}
 
 
 html {
@@ -28,10 +30,6 @@ li {
 
 .icon {
   font-size: $fontSmallSize; }
-
-// img {
-//   width: 100%;
-//   height: auto; }
 
 .flex {
   display: flex;
@@ -82,3 +80,11 @@ body {
   display: none;
 }
 
+@media(max-width:800px){
+  .container-dark{
+      background-color: $DarkGrey;
+  }
+  // .container-card-dark{
+  //     background-color: $DarkGrey;
+  // }
+}

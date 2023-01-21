@@ -14,16 +14,17 @@
   $BgCount: #EDECEC;
   $White: #FFFFFF;
   $colorShadow: #00000040;
-
+  $BgLightPink: #FF128226;
+  $BgLightBlue: #00FFF726;
 
   $footerBg: rgba(255, 18, 130, 0.05);
-  $fontBiggestSize: 30px;
+  $fontBiggestSize: 1.875em;
   /*30px*//*1.875rem*/
-  $fontBigSize: 24px;
+  $fontBigSize: 1.5em;
   /*24px*/
-  $fontMediumSize:20px;
+  $fontMediumSize:1.25em;
   /*20px*/
-  $fontsubMediumSize: 18px;
-  $fontSmallSize: 16px ;
+  $fontsubMediumSize: 1.125em;
+  $fontSmallSize: 1em ;
   /*16px*/
   $boxShadow: 0px 4px 4px 0px $colorShadow
