@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/milagrosniro/exchange.git/static/css/main.3e9fee76.css",
+    "main.js": "/milagrosniro/exchange.git/static/js/main.ed20cfa1.js",
+    "static/media/SansationLight.ttf": "/milagrosniro/exchange.git/static/media/SansationLight.4b0e0e7199c58c7cc1d3.ttf",
+    "index.html": "/milagrosniro/exchange.git/index.html",
+    "main.3e9fee76.css.map": "/milagrosniro/exchange.git/static/css/main.3e9fee76.css.map",
+    "main.ed20cfa1.js.map": "/milagrosniro/exchange.git/static/js/main.ed20cfa1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3e9fee76.css",
+    "static/js/main.ed20cfa1.js"
+  ]
+}
