@@ -1,0 +1,61 @@
+@import '../../../assets/vars.scss';
+
+.containerBurguer-light{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 2rem;
+    height: 1rem;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    z-index: 10;
+
+  &:focus {
+    outline: none;
+  }
+
+  div {
+    width: 2rem;
+    height: 1px;
+    background: $PrimaryTextColor;
+    border-radius: 10px;
+    transition: all 0.3s linear;
+    position: relative;
+    transform-origin: 1px;
+  }
+}
+
+.containerBurguer-dark{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 2rem;
+    height: 1rem;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    z-index: 10;
+
+  &:focus {
+    outline: none;
+  }
+
+  div {
+    width: 2rem;
+    height: 1px;
+    background: $PrimaryTextDark;
+    border-radius: 10px;
+    transition: all 0.3s linear;
+    position: relative;
+    transform-origin: 1px;
+  }
+}
+
+@media (min-width: 800px){
+    .containerBurguer-dark, .containerBurguer-light{
+        display: none
+    }
+}

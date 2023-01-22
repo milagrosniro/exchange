@@ -14,6 +14,7 @@ const handleTheme= () =>{
 }
 
 const [isOpenProfile, setIsOpenProfile] = useState(false);
+const [isOpenMenu, setIsOpenMenu] = useState(false)
 
   return (
     <ThemeContext.Provider value={{
@@ -21,7 +22,9 @@ const [isOpenProfile, setIsOpenProfile] = useState(false);
         setTheme,
         handleTheme,
         isOpenProfile,
-        setIsOpenProfile
+        setIsOpenProfile,
+        isOpenMenu,
+        setIsOpenMenu
 
     }}>
         {children}

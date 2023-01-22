@@ -8,7 +8,8 @@ import { ThemeContext } from '../../context/ThemeContext';
 import ModalMenu from '../ModalMenu/ModalMenu';
 
 const Body = () => {
-  const {isOpenProfile} = useContext(ThemeContext)
+  const {isOpenProfile, isOpenMenu} = useContext(ThemeContext)
+  console.log(isOpenMenu, 'OPEN MENU')
 
   return (
     <div className='mainContent'>
@@ -20,7 +21,10 @@ const Body = () => {
     isOpenProfile && <ModalSign/>
 
 }
+{
+isOpenMenu &&
 <ModalMenu/>
+}
 
       </div>
 

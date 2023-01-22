@@ -49,3 +49,12 @@
  :hover .headerSection .info{
     cursor: pointer;
  }
+
+ @media (max-width:800px){
+    .contactInfo{
+        display: none;
+    }
+    .toggleContainer{
+        display: none;
+    }
+  }

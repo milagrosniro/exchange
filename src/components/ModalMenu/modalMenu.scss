@@ -6,7 +6,7 @@ div.modalmenuContainer {
     right: 5rem;
     top: 1.899rem;
     height: 40%;
-    width: 17%;
+    width: 15%;
     box-shadow: $boxShadow;
 
     .containerHeaderMenu{
@@ -60,5 +60,11 @@ div.menuData{
 .dark{
     div.modalmenu{
         background-color:  $BackgroundColorDark
+    }
+}
+
+@media (min-width:800px){
+    div.modalmenuContainer{
+        display: none;
     }
 }

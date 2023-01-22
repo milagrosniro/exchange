@@ -5,6 +5,8 @@ interface IPropsContext{
     setTheme: (value: 'light' | 'dark') => void,
     handleTheme: () => void,
     isOpenProfile: boolean,
-    setIsOpenProfile: (value:boolean)=> void
+    setIsOpenProfile: (value:boolean)=> void,
+    isOpenMenu: boolean,
+    setIsOpenMenu: (value:boolean)=> void
 }
 export const ThemeContext = createContext({} as IPropsContext);

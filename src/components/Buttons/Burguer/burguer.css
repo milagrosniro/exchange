@@ -1,0 +1,52 @@
+/*30px*/
+/*1.875rem*/
+/*24px*/
+/*20px*/
+/*16px*/
+.containerBurguer-light {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 2rem;
+  height: 1rem;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  z-index: 10; }
+  .containerBurguer-light:focus {
+    outline: none; }
+  .containerBurguer-light div {
+    width: 2rem;
+    height: 1px;
+    background: #FF1282;
+    border-radius: 10px;
+    transition: all 0.3s linear;
+    position: relative;
+    transform-origin: 1px; }
+
+.containerBurguer-dark {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 2rem;
+  height: 1rem;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  z-index: 10; }
+  .containerBurguer-dark:focus {
+    outline: none; }
+  .containerBurguer-dark div {
+    width: 2rem;
+    height: 1px;
+    background: #00FFF7;
+    border-radius: 10px;
+    transition: all 0.3s linear;
+    position: relative;
+    transform-origin: 1px; }
+
+@media (min-width: 800px) {
+  .containerBurguer-dark, .containerBurguer-light {
+    display: none; } }
