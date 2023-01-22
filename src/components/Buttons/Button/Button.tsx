@@ -15,8 +15,7 @@ interface IBtnProps{
 
 const Button = ({color,onClick,img,title, width, height, text}:IBtnProps) => {
   const {theme} = useContext(ThemeContext)
-  //handleTheme
-  console.log(theme, 'THEME')
+
   return (
     <button onClick={onClick ? onClick : ()=>{}} style={{backgroundColor: color, color: text, width:'auto', height:'auto', border: `1px solid ${color}`, padding:`0.5rem 1rem`, display:'flex'}} className={theme}>
         <div className='wrapBtn'>

@@ -1,13 +1,13 @@
 
 import { useContext } from 'react'
-import AdvanceSecurity from '../../components/AdvanceSecurity/AdvanceSecurity'
+import AdvanceSecurity from '../../components/Cards/AdvanceSecurity/AdvanceSecurity'
 import BalanceCard from '../../components/BalanceCard/BalanceCard'
 import Button from '../../components/Buttons/Button/Button'
-import Card from '../../components/Card/Card'
-import DeviceAndActivities from '../../components/DeviceAndActivities/DeviceAndActivities'
-import EmailVerification from '../../components/EmailVerification/EmailVerification'
-import PreSaleToken from '../../components/PreSaleToken/PreSaleToken'
-import TwoFAutentication from '../../components/TwoFAutentication/TwoFAutentication'
+import Card from '../../components/Cards/Card/Card'
+import DeviceAndActivities from '../../components/Cards/DeviceAndActivities/DeviceAndActivities'
+import EmailVerification from '../../components/Cards/EmailVerification/EmailVerification'
+import PreSaleToken from '../../components/Cards/PreSaleToken/PreSaleToken'
+import TwoFAutentication from '../../components/Cards/TwoFAutentication/TwoFAutentication'
 import { ThemeContext } from '../../context/ThemeContext'
 import qr from "../../images/QRWHITE1.png";
 
@@ -41,12 +41,12 @@ const Dashboard = () => {
               color={theme === "light" ? "#FF1282" : "#00FFF7"}
               title="BUY TICKTES"
               img={qr}
-              onClick={handleTheme}
+              onClick={()=>{}}
               width={"70%"}
               height={"15%"}
               text={theme === "light" ? "#FFFFFF" : "#000000"}
             />
-            <Card width={""} height={""}>
+            <Card width={"100%"} height={""}>
               <PreSaleToken />
             </Card>
           </div>

@@ -1,0 +1,61 @@
+/*30px*/
+/*1.875rem*/
+/*24px*/
+/*20px*/
+/*16px*/
+.wrapAdvanceSec {
+  display: flex;
+  align-items: center; }
+
+.containerSubCard_AdvanceSecurity {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 0.5rem;
+  height: 100%;
+  align-items: flex-end; }
+  .containerSubCard_AdvanceSecurity .containerRightSubCard {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly; }
+    .containerSubCard_AdvanceSecurity .containerRightSubCard p {
+      width: 80%;
+      display: flex;
+      justify-content: space-between; }
+  .containerSubCard_AdvanceSecurity .containerBtns {
+    display: flex;
+    justify-content: flex-end;
+    width: 50%; }
+    .containerSubCard_AdvanceSecurity .containerBtns .wrapBtns {
+      display: flex;
+      width: 60%;
+      height: 100%;
+      justify-content: space-evenly; }
+  .containerSubCard_AdvanceSecurity .containerBtn {
+    align-self: flex-end;
+    display: flex;
+    justify-content: space-between; }
+
+.light .containerSubCard_AdvanceSecurity {
+  color: #000000; }
+  .light .containerSubCard_AdvanceSecurity .containerRightSubCard p {
+    color: #949494; }
+    .light .containerSubCard_AdvanceSecurity .containerRightSubCard p span {
+      color: #000000; }
+  .light .containerSubCard_AdvanceSecurity .containerBtns {
+    color: #FFFFFF; }
+  .light .containerSubCard_AdvanceSecurity .wrapBtns {
+    color: #FFFFFF; }
+
+.dark .containerSubCard_AdvanceSecurity {
+  color: #FFFFFF; }
+  .dark .containerSubCard_AdvanceSecurity .containerRightSubCard p {
+    color: #949494; }
+    .dark .containerSubCard_AdvanceSecurity .containerRightSubCard p span {
+      color: #FFFFFF; }
+  .dark .containerSubCard_AdvanceSecurity .containerBtns {
+    color: #FFFFFF; }
+  .dark .containerSubCard_AdvanceSecurity .wrapBtns {
+    color: #FFFFFF; }

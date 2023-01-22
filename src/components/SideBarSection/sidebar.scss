@@ -15,7 +15,10 @@
 
       .menuLists{
         margin-left: 0.5rem;
-        padding: 0.3rem;
+        // padding: 0.3rem;
+        padding-top: 1rem;
+        // padding-bottom: 1rem;
+        // padding-left: 0.5rem;
 
         .listItem{
           padding: 0.5rem;
@@ -38,6 +41,8 @@
       background-color: $PrimaryTextColor;
       transition: 0;
       border-radius: 5px;
+      // padding-top: 1rem;
+      // padding-bottom: 1rem;
 
     }
 
@@ -59,7 +64,9 @@
 
       .menuLists{
         margin-left: 0.5rem;
-        padding: 0.3rem;
+        // padding: 0.3rem;
+        padding-top: 1rem;
+        // padding-bottom: 1rem;
 
         .listItem{
           padding: 0.5rem;
@@ -82,10 +89,15 @@
       background-color: $PrimaryTextDark;
       transition: 0;
       border-radius: 5px;
-      color: $BlackText
+      color: $BlackText;
+      // padding-top: 1rem;
+      // padding-bottom: 1rem;
 
     }
 
+  }
+  .listItems{
+    padding-left:0.5rem
   }
   @media (max-width:800px){
     .sideBar-dark, .sideBar-light{

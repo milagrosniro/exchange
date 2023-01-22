@@ -1,0 +1,49 @@
+@import '../../../assets/_vars.scss';
+
+.containerPreSaleToken{
+
+    .titlePreSale{
+        font-size: $fontMediumSize;
+    }
+    .tokenPrice{
+        font-size: $fontSmallSize;
+        display: flex;
+        gap: 2rem;
+    }
+
+    .bodyPreSaleToken{
+        height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: stretch;
+}
+    // .progressToken{
+    //     height: 10%;
+    // }
+}
+
+.light{
+    height: 100%;
+    color: $SecondaryTextColor;
+    .tokenPrice{
+        div{
+            span{
+                color: $PrimaryTextColor
+            }
+        }
+    }
+}
+
+.dark{
+    height: 100%;
+    color:$White;
+
+    .tokenPrice{
+        div{
+            span{
+                color: $PrimaryTextDark
+            }
+        }
+    }
+}

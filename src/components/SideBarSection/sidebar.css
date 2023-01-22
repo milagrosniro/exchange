@@ -14,7 +14,7 @@
     padding: 0.5rem; }
   .sideBar-light .menuDiv .menuLists {
     margin-left: 0.5rem;
-    padding: 0.3rem; }
+    padding-top: 1rem; }
     .sideBar-light .menuDiv .menuLists .listItem {
       padding: 0.5rem;
       width: 100%;
@@ -40,7 +40,7 @@
     padding: 0.5rem; }
   .sideBar-dark .menuDiv .menuLists {
     margin-left: 0.5rem;
-    padding: 0.3rem; }
+    padding-top: 1rem; }
     .sideBar-dark .menuDiv .menuLists .listItem {
       padding: 0.5rem;
       width: 100%;
@@ -55,6 +55,9 @@
     transition: 0;
     border-radius: 5px;
     color: #000000; }
+
+.listItems {
+  padding-left: 0.5rem; }
 
 @media (max-width: 800px) {
   .sideBar-dark, .sideBar-light {

@@ -20,7 +20,6 @@ const MenuDropDown = ({array}:IMenuProps) => {
           ? setDisplay({ ...display, state: "inline", id: index })
           : setDisplay({ ...display, state: "none", id: index })
           : setDisplay({ ...display, state, id: index })
-          console.log(index, 'INDEX')
       };
   return (
 <div className="containerDropdown">

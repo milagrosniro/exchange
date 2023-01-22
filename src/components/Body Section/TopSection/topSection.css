@@ -33,7 +33,11 @@
     box-shadow: 0px 4px 4px 0px #00000040; }
   .topSection-dark .info {
     color: #00FFF7;
-    font-weight: 300; }
+    font-weight: 300;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 0.5rem;
+    align-items: center; }
     .topSection-dark .info .icon {
       color: #FFFFFF; }
 

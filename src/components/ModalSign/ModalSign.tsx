@@ -7,10 +7,9 @@ import { ThemeContext } from '../../context/ThemeContext';
 
 const ModalSign = () => {
     const {theme} = useContext(ThemeContext)
-    console.log(theme, 'THEME')
 
     const handleCloseSession = () => {
-        console.log('CERRAR SESION')
+
         // window.sessionStorage.removeItem("token");
         // dispatch({ type: "logOut" });
         // navigate("/login", { replace: true });

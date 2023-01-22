@@ -1,0 +1,122 @@
+@import '../../../assets/_vars.scss';
+
+.cardTokenSales{
+    display: flex;
+    flex-direction: column;
+    // padding: 1rem;
+    gap:0.5rem;
+    height: 100%;
+
+    .title{
+        height: 10%;
+    }
+
+    .wrapContainer{
+     display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 90%;
+
+    .bodyInfo{
+        display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: flex-end;
+    height: 50%;
+
+    .first{
+        display: flex;
+    justify-content: space-between;
+    width:100%;
+    div{
+        display: flex;
+        gap: 0.7rem;
+    }
+    }
+
+    .second{
+        display: flex;
+        flex-direction: column;
+
+        width:90%;
+
+        .containerRow{
+            display: flex;
+    justify-content: space-between;
+        }
+
+        div{
+            display: flex;
+            gap:0.7rem;
+
+        }
+    }
+    }
+
+    .footerInfo{
+        width: 100%;
+        // padding: 1rem;
+        height: 50%;
+    }
+    }
+}
+
+.light{
+    .wrapContainer{
+        .bodyInfo{
+        .first{
+        div{
+            span{
+                color: $PrimaryTextColor
+            }
+        }
+        }
+
+        .second{
+
+            div{
+                span{
+                    color: $PrimaryTextColor
+                }
+            }
+        }
+        }
+
+        }
+
+}
+
+.dark{
+    .title{
+        color: $PrimaryTextDark
+    }
+        .wrapContainer{
+        .bodyInfo{
+        .first{
+            p{
+                color:$White
+            }
+
+        div{
+            span{
+                color: $PrimaryTextDark
+            }
+        }
+        }
+
+        .second{
+            .containerRow{
+                color:$White
+            }
+
+            div{
+                span{
+                    color: $PrimaryTextDark
+                }
+            }
+        }
+        }
+
+        }
+
+}

@@ -9,6 +9,7 @@ import {CiLogout} from 'react-icons/ci'
 import { useContext } from 'react'
 import { ThemeContext } from '../../context/ThemeContext'
 import { ISideBar } from '../../interfaces/menuInterfaces'
+import { HiOutlineDocumentText } from 'react-icons/hi'
 
 
 const listSideBar : ISideBar[] = [
@@ -31,12 +32,12 @@ const listSideBar : ISideBar[] = [
           href: '/'
         },
         {
-          icon: <GrNotes className='icon'/>,
+          icon: <HiOutlineDocumentText className='icon'/>,
           title: 'Get Verified',
           href: '/'
         },
         {
-          icon: <GrNotes className='icon'/>,
+          icon: <HiOutlineDocumentText className='icon'/>,
           title: 'Buy Tokens',
           href: '/'
         },

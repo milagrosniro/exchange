@@ -1,10 +1,14 @@
-import { useState, useContext } from 'react';
+import { useState, useContext, useEffect } from 'react';
 import './toggleButton.scss'
 import { ThemeContext } from '../../../context/ThemeContext';
 
 const ToggleButton = () => {
     const [toggle, setToggle] = useState(false);
-    const {handleTheme} = useContext(ThemeContext)
+    const {handleTheme, theme} = useContext(ThemeContext)
+
+    useEffect(()=>{
+        theme === 'dark' ? setToggle(true) : setToggle(false)
+    },[])
 
     const handleOnClick= ()=>{
         setToggle(!toggle)

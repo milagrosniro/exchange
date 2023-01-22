@@ -32,7 +32,6 @@ function Dropdown() {
     state: "none",
     id: undefined,
   });
-  console.log(subMenuDisplay)
 
   const handleClick = (index: number, state?: string) => {
     setSelected({...selected, state: true, id: index})

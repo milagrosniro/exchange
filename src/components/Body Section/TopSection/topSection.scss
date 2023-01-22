@@ -39,6 +39,10 @@
     .info {
         color:$PrimaryTextDark;
          font-weight: 300;
+         display: flex;
+    justify-content: space-evenly;
+    gap: 0.5rem;
+    align-items: center;
 
         .icon{
             color:$White
