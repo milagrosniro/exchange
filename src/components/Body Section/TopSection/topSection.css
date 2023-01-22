@@ -14,7 +14,11 @@
     box-shadow: 0px 4px 4px 0px #00000040; }
   .topSection-light .info {
     color: #FF1282;
-    font-weight: 300; }
+    font-weight: 300;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 0.5rem;
+    align-items: center; }
     .topSection-light .info .icon {
       color: #6D6D6D; }
 

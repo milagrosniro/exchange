@@ -1,6 +1,6 @@
 import React, { useContext } from 'react';
-import { ThemeContext } from '../../context/ThemeContext';
-import qr from '../../images/QRWHITE1.png'
+import { ThemeContext } from '../../../context/ThemeContext';
+import qr from '../../../images/QRWHITE1.png'
 import './button.scss'
 
 interface IBtnProps{

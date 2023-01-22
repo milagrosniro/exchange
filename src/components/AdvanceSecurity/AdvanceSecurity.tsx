@@ -1,6 +1,6 @@
 import React, { useContext } from 'react'
 import { ThemeContext } from '../../context/ThemeContext'
-import Button from '../Button/Button'
+import Button from '../Buttons/Button/Button'
 import './advanceSecurity.scss'
 
 const AdvanceSecurity = () => {

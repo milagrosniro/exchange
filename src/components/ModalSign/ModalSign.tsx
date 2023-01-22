@@ -1,7 +1,7 @@
 
 import './modalSign.scss'
 import Dashboard from '../../pages/Dashboard/Dashboard';
-import Button from '../Button/Button';
+import Button from '../Buttons/Button/Button';
 import { useContext } from 'react';
 import { ThemeContext } from '../../context/ThemeContext';
 

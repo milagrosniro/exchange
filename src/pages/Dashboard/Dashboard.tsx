@@ -2,7 +2,7 @@
 import { useContext } from 'react'
 import AdvanceSecurity from '../../components/AdvanceSecurity/AdvanceSecurity'
 import BalanceCard from '../../components/BalanceCard/BalanceCard'
-import Button from '../../components/Button/Button'
+import Button from '../../components/Buttons/Button/Button'
 import Card from '../../components/Card/Card'
 import DeviceAndActivities from '../../components/DeviceAndActivities/DeviceAndActivities'
 import EmailVerification from '../../components/EmailVerification/EmailVerification'

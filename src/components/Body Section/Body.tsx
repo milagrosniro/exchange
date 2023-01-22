@@ -5,6 +5,7 @@ import SideBar from '../SideBarSection/SideBar'
 import './body.scss'
 import { useContext } from 'react';
 import { ThemeContext } from '../../context/ThemeContext';
+import ModalMenu from '../ModalMenu/ModalMenu';
 
 const Body = () => {
   const {isOpenProfile} = useContext(ThemeContext)
@@ -19,6 +20,7 @@ const Body = () => {
     isOpenProfile && <ModalSign/>
 
 }
+<ModalMenu/>
 
       </div>
 

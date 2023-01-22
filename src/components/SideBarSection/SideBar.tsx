@@ -8,17 +8,8 @@ import {BiMessageCheck, BiSupport} from 'react-icons/bi'
 import {CiLogout} from 'react-icons/ci'
 import { useContext } from 'react'
 import { ThemeContext } from '../../context/ThemeContext'
+import { ISideBar } from '../../interfaces/menuInterfaces'
 
-interface ISideBar {
-  title: string,
-  items: IItemsSideBar[]
-}
-
-interface IItemsSideBar{
-  icon:JSX.Element[] | JSX.Element,
-  title: string,
-  href: string
-}
 
 const listSideBar : ISideBar[] = [
   {

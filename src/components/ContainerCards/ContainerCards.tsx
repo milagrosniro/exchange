@@ -2,7 +2,7 @@ import { useContext, useEffect, useState } from "react";
 import Card from "../Card/Card";
 import "./containerCards.scss";
 import TokenPreSales from "../TokenPreSales/TokenPreSales";
-import Button from "../Button/Button";
+import Button from "../Buttons/Button/Button";
 import { ThemeContext } from "../../context/ThemeContext";
 import Home from "../../pages/Home/Home";
 import Dashboard from "../../pages/Dashboard/Dashboard";
