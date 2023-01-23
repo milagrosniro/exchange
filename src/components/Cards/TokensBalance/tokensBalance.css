@@ -10,6 +10,8 @@
   width: 100%;
   font-size: 1em;
   justify-content: space-between; }
+  .containerTokens .containerGraph {
+    margin-bottom: 1rem; }
   .containerTokens .firstRow {
     display: flex;
     flex-direction: column;
@@ -60,7 +62,8 @@
         font-size: 1em; }
     .containerTokens .secondRow .wrapGraph {
       display: flex;
-      justify-content: space-between; }
+      justify-content: space-between;
+      height: 100%; }
     .containerTokens .secondRow .rowValues {
       display: flex;
       gap: 2rem; }

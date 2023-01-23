@@ -8,6 +8,10 @@
     font-size: $fontSmallSize;
     justify-content: space-between;
 
+    .containerGraph{
+        margin-bottom: 1rem;
+    }
+
     .firstRow{
         display: flex;
     flex-direction: column;
@@ -82,6 +86,8 @@
         .wrapGraph{
             display: flex;
     justify-content: space-between;
+    height: 100%;
+
         }
         .rowValues{
             display: flex;
