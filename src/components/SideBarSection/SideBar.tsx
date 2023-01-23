@@ -127,7 +127,9 @@ const SideBar = () => {
                     }
                     to={item.href}
                   >
-                    {item.icon} <span className='smallText'>{item.title} </span>
+                    {item.icon}
+                     <span className='smallText'>{item.title} </span>
+                     {item.title === 'Messages' && <div className='divMsg'>12</div>}
                   </NavLink>
 
             </li>

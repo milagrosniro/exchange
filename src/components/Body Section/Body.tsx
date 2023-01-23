@@ -9,8 +9,6 @@ import ModalMenu from '../ModalMenu/ModalMenu';
 
 const Body = () => {
   const {isOpenProfile, isOpenMenu} = useContext(ThemeContext)
-  console.log(isOpenMenu, 'OPEN MENU')
-
   return (
     <div className='mainContent'>
 

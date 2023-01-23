@@ -15,7 +15,8 @@
   font-family: sansation;
   src: url("./assets/SansationLight.ttf");
   transition: .3s ease;
-  font-size: 0.98em; }
+  font-size: 0.98em;
+  transition: 0.1s; }
 
 html {
   font-size: 90%; }

@@ -15,10 +15,7 @@
 
       .menuLists{
         margin-left: 0.5rem;
-        // padding: 0.3rem;
         padding-top: 1rem;
-        // padding-bottom: 1rem;
-        // padding-left: 0.5rem;
 
         .listItem{
           padding: 0.5rem;
@@ -28,25 +25,34 @@
         }
       }
 
+      .menuLists :hover {
+        background-color:  $HoverBgColor;
+        transition: 0;
+        border-radius: 5px;
+        color: $PrimaryTextColor;
+        cursor: pointer;
+      }
+
       .menuLink{
         color: $SecondaryTextColor;
         font-weight: 300;
+        display: flex;
+    justify-content: center;
+    gap: 0.5rem;
+    align-items: center;
         .icon{
           margin-right: .5rem;
         }
       }
 
     }
-    .menuLists :hover {
+
+    div.divMsg {
       background-color: $PrimaryTextColor;
-      transition: 0;
-      border-radius: 5px;
-      // padding-top: 1rem;
-      // padding-bottom: 1rem;
-
+    color: $White;
+    padding: 0.25rem 0.5rem 0.25rem 0.5rem;
+    border-radius: 10px;
     }
-
-
 
   }
   .sideBar-dark{
@@ -62,12 +68,10 @@
         padding: 0.5rem;
       }
 
+
       .menuLists{
         margin-left: 0.5rem;
-        // padding: 0.3rem;
         padding-top: 1rem;
-        // padding-bottom: 1rem;
-
         .listItem{
           padding: 0.5rem;
           width: 100%;
@@ -86,18 +90,23 @@
 
     }
     .menuLists :hover {
-      background-color: $PrimaryTextDark;
+      background-color: $HoverDarkColor;
       transition: 0;
       border-radius: 5px;
-      color: $BlackText;
-      // padding-top: 1rem;
-      // padding-bottom: 1rem;
-
+      color: $PrimaryTextDark;
+       cursor: pointer;
     }
 
+    div.divMsg {
+      background-color: $PrimaryTextDark;
+    color: $BlackText;
+    padding: 0.25rem 0.5rem 0.25rem 0.5rem;
+    border-radius: 10px;
+    }
   }
   .listItems{
-    padding-left:0.5rem
+    padding:0.5rem;
+    display: flex
   }
   @media (max-width:800px){
     .sideBar-dark, .sideBar-light{
